@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+
+# CalculiX 求解输入与输出（可由程序重新生成）
+Step_*.inp
+Step_*.dat
+Step_*.frd
+Step_*.cvg
+Step_*.sta
+Step_*.12d
+
+# 第三方求解器与运行库（自行下载）
+ccx.exe
+*.dll
+
+# 本地调试与编辑器配置
+_diag*.py
+_diag*_out.txt
+.vscode/
